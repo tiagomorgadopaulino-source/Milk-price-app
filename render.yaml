@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: milk-price-app
-    runtime: node
-    buildCommand: npm install --legacy-peer-deps && npm run build
-    startCommand: node server.js
-    envVars:
-      - key: ANTHROPIC_API_KEY
-        sync: false
